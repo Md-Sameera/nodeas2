@@ -1,7 +1,8 @@
 const express = require("express");
-//Initializing the express package and includes it.
+//Initializing the express package and including it.
 const second=express();
-
+ 
+ //Using get method 
 second.get("/" , function (req, res) {
     //This Route path matches with the root route "/"
     res.send("This file is about normal routing. Providing different data for different URL's. ");
